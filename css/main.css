@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgba(220, 243, 157, 0.705)
+    background-color: rgba(220, 243, 157, 0.705);
+    text-align: center;
 }
 
 .board {
@@ -13,11 +14,19 @@
 .board td {
     width: 100px;
     height: 100px;
-    border: 1px solid black;
+    border: 1px solid rgba(7, 2, 22, 0.808);
     margin: 0;
     padding: 0;
 }
 
 .board td:hover{
     background-color: rgba(94, 221, 243, 0.712);
+}
+
+.btn {
+    background-color: rgba(94, 221, 243, 0.712);
+    color: rgba(7, 5, 26, 0.712);
+    border: none;
+    padding: 14px;
+    font-size: 21px;
 }
