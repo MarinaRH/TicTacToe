@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(220, 243, 157, 0.705)
+}
+
+.board {
+    margin: 100px auto;
+    border-collapse: collapse; /*no tenga borde la tabla*/
+}
+
+.board td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.board td:hover{
+    background-color: rgba(94, 221, 243, 0.712);
+}
