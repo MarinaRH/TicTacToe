@@ -9,14 +9,23 @@
 .board {
     margin: 100px auto;
     border-collapse: collapse; /*no tenga borde la tabla*/
+    font-family: Arial, Helvetica;
+    font-size: 91px;
 }
 
 .board td {
     width: 100px;
     height: 100px;
-    border: 1px solid rgba(7, 2, 22, 0.808);
     margin: 0;
     padding: 0;
+}
+/*colocar los bordes a las columnas excepto a la ultima*/
+.row:not(:last-child) {
+    border-bottom: 2px solid black;
+}
+
+.row .cell:not(:last-child) {
+    border-right: 2px solid black;
 }
 
 .board td:hover{
