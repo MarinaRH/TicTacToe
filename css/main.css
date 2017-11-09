@@ -37,5 +37,9 @@
     color: rgba(7, 5, 26, 0.712);
     border: none;
     padding: 14px;
-    font-size: 21px;
+    font-size: 28px;
+}
+
+.btn:hover {
+    background-color: transparent;
 }
